@@ -1,76 +1,76 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CMZCity Plan A</title>
-    <style>
-        * {margin: 0;padding: 0;box-sizing: border-box;}
-        body {
-            background: #1a1a1a;
-            font-family: "Microsoft Yahei", sans-serif;
-            color: #fff;
-            padding: 20px;
-            background-image: url("https://images.unsplash.com/photo-1628625885433?w=100&h=100&auto=format");
-            background-attachment: fixed;
-            background-size: 128px;
-            background-repeat: repeat;
-            background-blend-mode: overlay;
-        }
-        .login-mask {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.9);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 999;
-        }
-        .login-box {
-            background: rgba(24,24,24,0.95);
-            border: 2px solid #55ff55;
-            border-radius: 12px;
-            padding: 40px 30px;
-            width: 90%;
-            max-width: 400px;
-            text-align: center;
-        }
-        .login-box h2 {
-            color: #55ff55;
-            margin-bottom: 25px;
-            text-shadow: 0 0 8px #55ff55;
-        }
-        .login-input {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px dashed #4CAF50;
-            background: rgba(0,0,0,0.5);
-            color: #fff;
-            border-radius: 8px;
-            font-size: 1rem;
-            margin-bottom: 15px;
-            outline: none;
-        }
-        .login-input:focus {
-            border: 1px solid #55ff55;
-            box-shadow: 0 0 10px rgba(85,255,85,0.3);
-        }
-        .login-btn {
-            padding: 12px 30px;
-            background: rgba(34,139,34,0.8);
-            border: 2px solid #55ff55;
-            color: #fff;
-            border-radius: 8px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.3s;
-            margin-top: 10px;
-        }
-        .login-btn:hover {
-            background: rgba(34,139,34,1);
+<! DOCTYPE html>
+<html 朗="zh-CN">
+<头部>
+    <meta 夏尔塞特="UTF-8">
+    <meta 名称="viewport" 内容="width=device-width, initial-scale=1.0">
+    <标题>CMZCity A 计划</标题>
+    <风格>
+ * {margin: 0;padding: 0;box-sizing: border-box;} 
+  身体 {
+ 背景: #1a1a1a; 
+ font-family: "Microsoft Yahei", sans-serif; 
+ 颜色:#fff; 
+ 填充：20px; 
+ 背景图片:url(“https://images.unsplash.com/photo-1628625885433?w=100”https://images.unsplash.com/photo-1628625885433?w=100&h=100&auto=format”) 
+ 背景附件：固定； 
+ 背景大小：128px; 
+ background-repeat: 重复； 
+ background-blend-mode: 覆盖； 
+         } 
+ .login-mask {
+ 位置：固定； 
+ 顶部: 0; 
+ 左：0; 
+ 宽度：100%; 
+ 高度：100%; 
+ 背景: rgba (0,0,0,0.9); 
+ 显示:flex; 
+ 对齐项目：中心； 
+ 正当内容：中心； 
+ z 指数：999; 
+         } 
+ .login-box { 
+ 背景: rgba (24,24,24,0.95); 
+ 边框:2px实心#55ff55; 
+ 边框半径：12px; 
+ 填充：40px 30px; 
+ 宽度：90%; 
+ 最大宽度：400px; 
+ text-align: 中心； 
+         } 
+ .login-box h2 { 
+ 颜色: #55ff55; 
+ 下边距：25px; 
+ 文本阴影: 0 0 8px #55ff55; 
+         } 
+ .login-input { 
+ 宽度：100%; 
+ 填充：12px 15px; 
+ 边框: 1 px 破折号 #4CAF50 ; 
+ 背景: rgba (0,0,0,0.5); 
+ 颜色:#fff; 
+ 边框半径：8px; 
+ 字体大小：1rem; 
+ 下边距：15px; 
+ 轮廓：无； 
+         } 
+ .login-input:focus { 
+ 边框:1px实心#55ff55; 
+ 影框: 0 0 10px rgba (85,255,85,0.3); 
+         } 
+ .login-btn { 
+ 填充：12px 30px; 
+ 背景: rgba (34,139,34,0.8); 
+ 边框:2px实心#55ff55; 
+ 颜色:#fff; 
+ 边框半径：8px; 
+ 字体大小：1rem; 
+ 光标：指针； 
+ 过渡：全部 0.3s; 
+ 边缘顶部：10px; 
+         } 
+ .login-btn:hover { 
+ 背景: rgba (34,139,34,1); 
             box-shadow: 0 0 15px #55ff55;
         }
         .header {
